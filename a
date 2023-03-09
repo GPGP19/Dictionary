@@ -1,0 +1,17 @@
+Create Key+Change Values+Word Frequency Counter
+
+test_Sentence="Hey there what are you doing hey what"
+
+def word_frequency (sentence):
+      final_frequency= {}
+
+  for world in sentence.split():
+    if word not in final_frequency:
+         final_frequency[word]= 1
+    else:
+         final_frequency[word] += 1
+
+return final_frequency
+
+print (word_frequency(test_sentence))
+  
